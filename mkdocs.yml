@@ -22,7 +22,6 @@ nav:
     - False coursehead (FCH) groups: advanced/fch_groups.md
   - 'Additional Info':
     - About: about.md
-  - Testing: test.md
 theme: readthedocs
 markdown_extensions: 
   - admonition
