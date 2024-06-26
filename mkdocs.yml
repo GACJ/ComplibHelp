@@ -4,7 +4,7 @@ nav:
   - Core concepts: concepts.md
   - 'Methods': 
     - Method pages: methods/overview.md
-    - Customising blue lines: methods/blueline_options.md
+    - Customising the blue line: methods/blueline_options.md
     - Understanding method properties: methods/method_properties.md
     - Place notation: methods/place_notation.md
     - Adding methods: methods/adding_methods.md

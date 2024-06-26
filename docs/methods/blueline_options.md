@@ -1,4 +1,4 @@
-# Customising blue lines
+# Customising the blue line
 
 The blue line options menu can be viewed by clicking on the cog icon at the top right of a method page's [Blue Line tab](overview.md/#blue-line).
 
@@ -75,4 +75,31 @@ Leadend underline
 
 ## Line styles and bell weights
 Complib allows you to fine-tune how many lines are displayed and what they look like.
+
+Hunt bell weight
+:   Specifies the **line weight** of all hunt bells. A value of `0` will hide the lines.
+
+Working bell weight
+:   Specifies the line weight of the default working bell. A value of `0` will hide the line.
+
+Line styles
+:   Allows you to specify line styles for each numbered bell.
+
+    ![Line style options](../img/blueline_options_linestyles.png){ width="300"}
+
+    To edit a bell's line style, click on the bell's name. The options underneath will change to reflect the current line style of the bell, and the current line style for the bell will be drawn on the right of the bell list.
+
+Bell number
+:   Specifies that the selected bell's number should be displayed whenever a line is not drawn over it. This is enabled by default.
+
+Line weight
+:   Specifies the line weight to be used for the selected bell. A weight of `0` will hide the line.
+
+!!! warning
+    A line weight which is manually specified for a hunt bell or the auto-assigned working bell will be overridden by the default line weights specified by **Hunt bell weight** and **Working bell weight**. In order to manually specify weights for these bells, set the relevant default weight to `0` first.
+
+Line colour
+:   Specifies the colour of the selected bell's line. Every bell has a default colour. Changes to a bell's default colour will be reflected in the grid as well as in the plain course diagram.
+
+
 
