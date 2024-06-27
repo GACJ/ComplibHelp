@@ -1,4 +1,5 @@
 site_name: Complib Help
+site_url: https://help.complib.org
 nav:
   - Introduction: index.md
   - Core concepts: concepts.md
