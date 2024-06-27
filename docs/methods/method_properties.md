@@ -195,7 +195,7 @@ Working bells
 :   The number of non-hunt bells.
 
 Stationary bells
-:   The number of stationary bells.
+:   The number of bells which do not change place for the whole of the plain course.
 
 Maximum blows in one place
 :   The maximum number of times any bell remains in the same place between consecutive rows of the method.
