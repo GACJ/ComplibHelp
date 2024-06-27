@@ -24,7 +24,7 @@ then these are good reasons to raise an issue.
 ## When not to raise an issue
 There are certain circumstances under which we would ask you not to raise an issue.
 
-Change ringing is an art with a very long history, and its technical aspects have been subject to constant development within the change ringing community for centuries. Complib is intended to serve the needs of change ringing **as it is currently practiced**. To this end, both Complib and the Help reflect the current [Central Council Framework for Method Ringing](https://framework.cccbr.org.uk/version2/index.html) wherever possible.
+Change ringing is an art with a very long history, and its technical aspects have been subject to constant development within the change ringing community for centuries. Complib is intended to serve the needs of change ringing **as it is currently practised**. To this end, both Complib and the Help reflect the current [Central Council Framework for Method Ringing](https://framework.cccbr.org.uk/version2/index.html) wherever possible.
 
 Neither Complib itself nor this Help documentation are designed to act as fora for debate on the details of the current Framework, nor indeed should they. Such debate is a crucial part of change ringing culture, but this is not the appropriate place for it.
 
