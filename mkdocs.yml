@@ -11,6 +11,7 @@ nav:
     - Adding methods: methods/adding_methods.md
   - 'Compositions':
     - Composition pages: compositions/overview.md
+    - Customising composition layouts: compositions/layout_options.md
   - 'Collections':
     - Overview: collections/overview.md
   - 'Searching Complib':
