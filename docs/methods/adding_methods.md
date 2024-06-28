@@ -12,13 +12,13 @@ To get started, click on **Create new > New method** in the navbar or dropdown m
 The add method page has a number of fields which allow you to specify certain properties of your custom method. These are:
 
 Name (optional)
-:   The desired name for your custom method. This will be used by Complib to generate the method's full title, which consists of its name plus its classification and stage.
-
-!!! note
-    Complib automatically appends the method's classification and stage to its name. As such, you should not add classification- or stage-specific words such as `Treble Bob` or `Caters` to the name field.
+:   The desired name for your custom method. This will be used by Complib to generate the method's full title. See [Things to consider when naming methods](#things-to-consider-when-naming-methods) for advice on choosing a name for your custom method.
 
 !!! warning
     While the name field is optional, it is strongly recommended that you give every custom method a name. This will allow you to search for it more easily later.
+
+!!! note
+    Complib automatically appends the method's classification and stage to its name. As such, you should not add classification- or stage-specific words such as `Treble Bob` or `Caters` to the name field.
 
 Stage (required)
 :   The stage at which the method is to be rung. Complib supports methods on up to twenty-eight bells.
@@ -70,12 +70,60 @@ The specified division ends exceed the bounds of the method's lead. The division
 For custom methods with multiple divisions, two or more of the specified division ends are identical. All division ends must be unique rows within the method's lead.
 
 ### Warnings and other messages
-If method validation is successful, Complib may display a number of warnings and other messages.
+If method validation is successful, Complib may display a number of warnings and other messages. These are designed to notify you of any additional information you may wish to take into account when naming your custom method. This information may be redundant.
 
+Unlike [method errors](#method-errors), warnings and other alerts will not prevent you from saving a custom method. Some of the warnings and other messages you may encounter include:
+
+!!! warning "Warning: Method title already used at a different stage..."
+
+The custom method's generated title is identical to another method of the same class but differing stage. The current Central Council Framework requires that such methods belong to one of the accepted **extension paths** (see [Extensions](../advanced/extensions.md)). While you can save a custom method which does not belong to an accepted extension path, the method will not be able to be accepted under that name when rung.
+
+!!! warning "Warning: Method is related to `___` as a `___` extension..."
+
+The custom method's place notation can be obtained from an existing method by following one of the accepted extension paths. When this happens, you may wish to give the custom method the same name as the existing method, provided that another method with that name does not already exist at the same stage as the custom method. 
+
+!!! note "Information: Method is related to `___`..."
+
+The custom method is related to an existing method at the same stage. This occurs when the custom method is a **halflead/leadend** variant, or a **Single/Double/Reverse** form of the existing method. See [Method pages > Related methods](overview.md/#related-methods) for more information about method relationships.
+
+## Things to consider when naming methods
+!!! tip "Definition: Method names, titles, etc."
+    A method's **title** is its full descriptive designation, which consists of its **name**, its **class**, and its **stage**, given in that order.
+
+It is a long-standing tradition of change ringing that anyone can name a method that has not been rung and named before. When deciding on a name for a custom method, there are a number of things you may wish to bear in mind. While the following guildelines allow a degree of flexibility (with some exceptions), they are widely accepted rules of thumb within the Exercise.
+
+1. A method's name should be unique.
+:   Two methods cannot share the same title. Two methods at differing stages cannot share the same name and class, with the exception of methods that are accepted as belonging to the same **extension path**.
+
+2. A method's name should be human-readable and pronounceable.
+:   A method's name should be something that a human being can read and say aloud. As such, method names should not consist exclusively of punctuation, numerals or other symbols. 
+
+3. A method's name should not contain offensive or abusive language.
+:   The Exercise of change ringing is for everyone. As such, method names which are **offensive** or which contain terms considered to be **hate speech** are extremely likely to be rejected outright, and methods rung under such names will be forcibly renamed before they can be accepted into the Central Council's Method Library.
+:   While not a formal requirement, it is also worth considering the value of **good taste** when naming methods. The precise determination of this is, of course, subjective.
+
+4. A method has not been officially named until it is rung.
+:   According to tradition, the initial right to determine a method's name is afforded to the band which first rings it in a compliant **performance**. A custom method which you save to Complib under a certain name may be rung under a different name by someone else, and it is under the latter name that the method will be officially recognised.
 
 ## Private and public methods
+A custom method which is successfully saved to Complib will be designated a **private method** and given its own [method page](overview.md). As noted above, a private method has not been officially named until it is performed and accepted into the Central Council's Method Library. 
 
-### Sharing private methods
+When this happens, the method will be automatically added to Complib's `CCCBR` library. Any private methods which have identical place notation to a newly recognised method will be deleted, and any compositions using such private methods will be automatically changed to use the new public method.
+
+### Sharing private methods via link
+Under normal circumstances, a private method is only visible to the user who created it. However, you may wish to share your private methods with other people under certain circumstances. Complib gives you the ability to do this by way of a special link which can be generated via the private method's page.
+
+To generate the link, click the **Share** button at the top right of the private method's page.
+
+![Share button](../img/share_button.png)
+
+This will open a window containing a link in plaintext form which you can copy to your clipboard.
+
+### Sharing private methods via published compositions
+Another way to share private methods is by **publishing a composition** which includes the private method as part of its definition (see [Adding compositions](../compositions/adding_compositions.md) to learn more about adding and publishing compositions).
+
+!!! warning
+    Private methods shared via published compositions will be visible to **all registered users**. Please be sure that you are happy with your private method to be widely available before publishing a composition which uses it.
 
 ## Editing and deleting methods
 
