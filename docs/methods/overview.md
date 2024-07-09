@@ -1,12 +1,12 @@
 # Method pages
 
-Complib acts as a method collection, and has dedicated pages for all officially named methods in the Central Council's Method Library. Methods within this library are regularly updated, and new methods automatically added, in order to keep the collection up to date. 
+Complib acts as a method collection, and has dedicated pages for all methods in its [libraries](../concepts.md/#the-libraries), including every method officially named and rung. The official `CCCBR` library is regularly updated and newly named methods automatically added in order to keep the collection up to date.
 
-When a method is added, Complib automatically classifies it and derives its various properties. It then creates a page for the method where all relevant information can be viewed. For example, the method page for [Bristol Surprise Major](https://complib.org/method/19048/) looks something like this:
+When a new method is added to any of its libraries, Complib classifies it and derives its various properties. It then creates a page for the method where all relevant information can be viewed. For example, the method page for [Bristol Surprise Major](https://complib.org/method/19048/) looks something like this:
 
 ![Bristol Surprise Major](../img/method_sample_page.png)
 
-The method's **name** is displayed at the top. If this name has changed since the method was first rung, all previous name(s) will be displayed underneath the current name.
+The method's **name** is displayed at the top. If this name has changed since the method was first rung, the previous name(s) will be displayed underneath the current name if they are known.
 
 ## Toolbar
 
@@ -17,13 +17,13 @@ To the side of the method's name is the **toolbar**:
 The toolbar buttons can be identified by hovering over them. They are, from left to right:
 
 Find compositions true to this
-:   Begins an **entended search** of all Complib compositions to determine which ones can be rung with this method (see [Extended searches](../search/extended.md)).
+:   Begins an **extended search** of all Complib compositions to determine which ones can be rung with this method (see [Extended searches](../search/extended.md)).
 
 Add to collection
 :   Adds the method to a **collection** of your choice (see [Collections](../collections/overview.md)).
 
 Clone
-:   Creates a clone of the method in the **method editor** which you can then edit (see [Adding methods](adding_methods.md)).
+:   Creates a duplicate of the method in the **method editor** which you can then edit (see [Adding methods](adding_methods.md)).
 
 Share
 :   Displays a public link to the method page so it can be shared with others.
@@ -35,7 +35,7 @@ Printable version
 :   Opens a new tab displaying the contents of the [blue line](#blue-line) tab in a form which is easy to print.
 
 !!! note
-    The `Find compositions true to this`, `Add to collection` and `Clone` buttons are only available to registered users. If you are not logged in, these buttons will not be displayed.
+    The `Find compositions true to this`, `Add to collection` and `Clone` buttons are only available to registered Power Users. If you are not logged in, these buttons will not be displayed.
 
 ## Tabs overview
 The majority of the page is subdivided into various expandable tabs (click on the name of a tab to skip to a detailed description of its contents):
@@ -91,13 +91,22 @@ Double work above/below
 :   For methods with a single hunt bell, the combination of the work done above/below the hunt bell with an inverted copy of itself will give a double method, which may or may not have been named.
 
 Extensions
-:   Two methods at **differing stages** are extensions of one another if they are related by any of the recognised **extension paths**. If the method can be extended using any of the recognised extension paths, all methods in the path will be listed up to stage Twenty-Eight (see [Extensions](../advanced/extensions.md)).
+:   Two methods at **differing stages** are extensions of one another if they are related by any of the recognised **extension paths**. If the method can be extended using any of the recognised extension paths, all methods in the path will be listed up to stage Twenty-Four (see [Extensions](../advanced/extensions.md)).
 
 Non-conforming extensions
-:   If two methods share the same name and class but are not related by any of the recognised extension paths, then they are **non-conforming extensions** of one another. Methods with non-conforming extensions will typically have been named and rung before the formal framework of method extension was developed. A previously non-conforming extension may become a conforming extension in the event that: 
+:   If two methods share the same name and class but are not related by any of the recognised extension paths, then they are **non-conforming extensions** of one another. A previously non-conforming extension may become a conforming extension in the event that: 
 
     - a new extension pathway becomes recognised; and
     - the previously non-conforming extension can be obtained by application of that new pathway.
+
+!!! note
+    There are a number of reasons why a method may be listed on Complib as a non-conforming extension. These include (but are not limited to):
+
+    * The method was named and rung before the formal framework of method extension was developed.
+    * The method is non-palindromic (Complib does not currently process extensions for non-palindromic methods, but this will hopefully change at some point in the future).
+    * The method was not previously recognised as a conforming extension and was named accordingly, and now is.
+
+    Method classification has a complex history, and its development has reflected changing values within the Exercise. For the most part, there is a general agreement that more rigorous modern classification practices should be balanced with the preservation of ringing history.
 
 ## Trivial variations
 ![Trivial variations tab expanded](../img/trivial_variations_tab_expanded.png)
@@ -107,9 +116,14 @@ This tab lists all named methods which are related to the current method by mean
 
 The image above shows the first leads of [Yorkshire Surprise Major](https://complib.org/method/17060) (left) and [Quedgeley Surprise Major](https://complib.org/method/17064) (right), which are trivial variations of each other. It can be seen by inspection that the two are almost identical, with only slight differences in the blue line.
 
-It is important to note that the word trivial is not a value judgement: it does **not** imply that one method is inherently more original or "valuable" than another. It is a purely technical classification which identifies a similarity in their constructions. 
+More specifically, Complib will determine that two methods are trivial variations if the following conditions all hold:
 
-The property of trivial variation is a symmetric relationship: if method B is a trivial variation of method A, then method A is necessarily a trivial variation of method B.
+1. There is a sequence of changes in the lead where the same two bells are working together in both methods; AND
+2. The bells are in the same relative position at the start of the sequence in both methods; AND
+3. The bells are in the same relative position at the end of the sequence in both methods; AND
+4. The methods differ only by sequences satisfying conditions 1-3.
+
+It is important to note that the word trivial is not a value judgement: it does **not** imply that one method is inherently more original or "valuable" than another. It is a purely technical classification which identifies a similarity in their constructions. Indeed, the property of trivial variation is a symmetric relationship: if method B is a trivial variation of method A, then method A is necessarily a trivial variation of method B.
 
 Contrary to the name, a method might differ from its trivial variants in decidedly non-trivial ways. They may not share exactly the same rows, and subsequently may have different false coursehead groups, among other things. A consequence of this is the following:
 
@@ -133,11 +147,18 @@ Type
 
     Performances are further typified by whether they were rung on towerbells or handbells.
 
+!!! note
+    There is an order of priority within performance types, which broadly corresponds with length. A performance is typically only included if no performance of that length or greater has been recorded prior to that date. Once a performance of greater length has been recorded, shorter performances from after that date will no longer be added (but will be retained if added previously). The exception to this is **long lengths**, which will always be recorded. The precedence is, in descending order:
+
+    1. Long length
+    2. First peal
+    3. First inclusion in a peal
+    4. First quarter peal
+    5. First inclusion in a quarter peal
+    6. First extent
+
 Details
 :   The published details of the performance: title, performing Guild or Association (if given), location, and conductor (if given). The entry in this field acts as a link to the corresponding Bellboard performance, provided it exists and has been linked to the method page (see [Linking Bellboard performances](adding_methods.md/#linking-bellboard-performances)).
-
-!!! note
-    Performance information exists only for those methods where it has been manually added to the corresponding method page. Many methods have no added performances, but this should not be taken to mean that the method has never been performed.
 
 ## References
 ![References tab expanded](../img/references_tab_expanded.png)

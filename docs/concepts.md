@@ -3,7 +3,7 @@
 ## Methods, Compositions and Collections
 The three main concepts underpinning Complib are **methods**, **compositions** and **collections**.
 
-Complib has a dedicated page for every **method** in its various [libraries](#the-libraries), including all those which have been officially named and rung . Complib allows you to quickly look up the blue line and rows of a method, as well as anything else you might want to know about it. In addition, Complib allows users to [define their own methods](methods/adding_methods.md) using **place notation**.
+Complib has a dedicated page for every method in its various [libraries](#the-libraries), including all those which have been officially named and rung. Complib allows you to quickly look up the blue line and rows of a method, as well as anything else you might want to know about it. In addition, Complib allows users to [define their own methods](methods/adding_methods.md) using **place notation**.
 
 Complib contains a large number of **compositions**, which are specified callings for a performance. These range in scope from simple practice-night touches to full peals and long lengths. Users can search for compositions fitting various criteria, [publish compositions of their own](compositions/adding_compositions.md), and rate their favourites. You can even request compositions from other users.
 
