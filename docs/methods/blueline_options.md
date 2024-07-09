@@ -29,6 +29,9 @@ Allow lead split
 Choose working bells from smallest
 :   By default, Complib will choose the biggest working bell (if any exist) and draw its line in the method display. If this option is selected, the smallest working bell will be chosen instead.
 
+!!! note
+    Complib will choose one working bell from each **working bell cycle** for its default line drawing. For methods with more than one cycle, this means that one bell from each of the disjoint cycles will be selected according to the criterion specified here, and each drawn in a different colour. See [Working bell cycles](method_properties/#working-bell-cycles) for more details.
+
 Maximum columns
 :   Sets the maximum number of columns which can be fit horizontally in the window before the display wraps. A value of `0` tells Complib to auto-resize the columns to fit them all within the window without wrapping.
 
@@ -39,7 +42,7 @@ Number of rows to display
 :   Sets the number of method rows to display. A value of `0` will display all the method's rows.
 
 Starting after row
-:   Sets the display's starting row. Starts from rounds by default, which is always row `0`.
+:   Sets the display's starting row number. By default the display starts from rounds, which is always row `0`.
 
 ## Column display options
 
@@ -59,7 +62,7 @@ Show falseness
 :   Highlights any repeated rows within the course. The first instance of a repeated row will be shown in light red, with any subsequent occurrences highlighted in dark red.
 
 Show music
-:   Highlights any rows or partial rows which attract a positive score according to the default **music scheme** in green, and shows the corresponding score value to the right of the column.
+:   Highlights any rows or partial rows which attract a non-zero score according to the default **music scheme** in green, and shows the corresponding score value to the right of the column.
 
 Row nature
 :   Displays the **parity** of each row to the right of every column (see [Row parity](../advanced/row_parity.md)).
@@ -90,13 +93,13 @@ Line styles
     To edit a bell's line style, click on the bell's name. The options underneath will change to reflect the current line style of the bell, and the current line style for the bell will be drawn on the right of the bell list.
 
 Bell number
-:   Specifies that the selected bell's number should be displayed whenever a line is not drawn over it. This is enabled by default.
+:   Specifies that the selected bell's number should be displayed at all times, including when a line is drawn over it.
 
 Line weight
 :   Specifies the line weight to be used for the selected bell. A weight of `0` will hide the line.
 
 !!! warning
-    A line weight which is manually specified for a hunt bell or the auto-assigned working bell will be overridden by the default line weights specified by **Hunt bell weight** and **Working bell weight**. In order to manually specify weights for these bells, set the relevant default weight to `0` first.
+    A display style which is manually specified for any hunt bell(s) or the auto-assigned working bell(s) will be overridden by the default styles specified by **Hunt bell weight** and **Working bell weight**. In order to manually specify the display style for these bells, set the relevant default weight to `0` first.
 
 Line colour
 :   Specifies the colour of the selected bell's line. Every bell has a default colour. Changes to a bell's default colour will be reflected in the grid as well as in the plain course diagram.
