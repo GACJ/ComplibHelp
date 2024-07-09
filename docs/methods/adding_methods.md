@@ -11,23 +11,23 @@ To get started, click on **Create new > New method** in the navbar or dropdown m
 
 The add method page has a number of fields which allow you to specify certain properties of your custom method. These are:
 
-Name (optional)
+Name (required)
 :   The desired name for your custom method. This will be used by Complib to generate the method's full title. See [Things to consider when naming methods](#things-to-consider-when-naming-methods) for advice on choosing a name for your custom method.
 
-!!! warning
-    While the name field is optional, it is strongly recommended that you give every custom method a name. This will allow you to search for it more easily later.
+!!! error "Bug"
+    While listed here as required, you will not currently be prevented from saving a method without a name. This is a known bug and will be fixed at a later date, after which point you will no longer be able to save methods without a name. For the time being, it is strongly advised that you give every custom method a name.
 
 !!! note
-    Complib automatically appends the method's classification and stage to its name. As such, you should not add classification- or stage-specific words such as `Treble Bob` or `Caters` to the name field.
+    Complib automatically appends the method's class descriptors and stage to its name to give the method's full title. As such, you should not add classification- or stage-specific words such as `Treble Bob` or `Caters` to the name field.
 
 Stage (required)
-:   The stage at which the method is to be rung. Complib supports methods on up to twenty-eight bells.
+:   The stage at which the method is to be rung. Complib supports methods on numbers from two to twenty-eight bells.
 
 Place Notation (required)
 :   The method's place notation. This can be specified in either full or condensed form. When verifying the method, Complib will automatically condense the place notation as much as possible. To learn how to use place notation, see [Place notation](place_notation.md).
 
 Division Ends (optional)
-:   For methods requiring divisions, specifies the rows at the ends of each division. If the method has multiple divisions per lead, the corresponding division end rows should be separated with a colon (e.g., `2:8`).
+:   For methods requiring divisions, specifies the row numbers at which the ends of each division occur. If the method has multiple divisions per lead, the corresponding division end rows should be separated with a colon (e.g., `2:8`).
 
 Notes (optional)
 :   Specifies a message to be displayed in the **Library Details** tab of the custom method's page. This is a good place to put any important information about the method which you may want to keep to hand.
@@ -43,7 +43,7 @@ If the custom method is successfully validated, clicking the `Save` button will 
 
 If Complib encounters a problem when attempting to validate a custom method, an error message will be displayed. **All errors must be cleared before a custom method can be saved.**
 
-There are a number of different error types:
+There are a number of different error types. Most errors will give an indication of how to clear them. The following is a non-exhaustive list of some of the more common examples:
 
 !!! error "Error: Place notation `_` is invalid for stage..."
 
@@ -80,7 +80,7 @@ The custom method's generated title is identical to another method of the same c
 
 !!! warning "Warning: Method is related to `___` as a `___` extension..."
 
-The custom method's place notation can be obtained from an existing method by following one of the accepted extension paths. When this happens, you may wish to give the custom method the same name as the existing method, provided that another method with that name does not already exist at the same stage as the custom method. 
+The custom method's place notation can be obtained from an existing method by following one of the accepted extension paths. When this happens, you will likely wish to give the custom method the same name as the existing method, provided that another method with that name does not already exist at the same stage as the custom method. Additionally, while this is expressed as a warning, there are circumstances under which you are obliged to name a method in accordance with an extension path if you wish to do so officially. See [Extensions](../advanced/extensions.md) for an in-depth explanation of this topic.
 
 !!! note "Information: Method is related to `___`..."
 
@@ -90,10 +90,10 @@ The custom method is related to an existing method at the same stage. This occur
 !!! tip "Definition: Method names, titles, etc."
     A method's **title** is its full descriptive designation, which consists of its **name**, its **class**, and its **stage**, given in that order.
 
-It is a long-standing tradition of change ringing that anyone can name a method that has not been rung and named before. When deciding on a name for a custom method, there are a number of things you may wish to bear in mind. While the following guildelines allow a degree of flexibility (with some exceptions), they are widely accepted rules of thumb within the Exercise.
+It is a long-standing tradition of change ringing that anyone can name a method that has not previously named subsequent to a qualifying performance. When deciding on a name for a custom method, there are a number of things you may wish to bear in mind. While the following guidelines allow a degree of flexibility (with some exceptions), they are widely accepted rules of thumb within the Exercise.
 
 1. A method's name should be unique.
-:   Two methods cannot share the same title. Two methods at differing stages cannot share the same name and class, with the exception of methods that are accepted as belonging to the same **extension path**.
+:   Two methods cannot share the same title. Two methods at differing stages cannot share the same name and class, with the exception of methods that are accepted as belonging to the same **extension path**, or methods whose class is not expressed as part of its title (e.g. hybrid methods and priciples).
 
 2. A method's name should be human-readable and pronounceable.
 :   A method's name should be something that a human being can read and say aloud. As such, method names should not consist exclusively of punctuation, numerals or other symbols. 
@@ -104,6 +104,8 @@ It is a long-standing tradition of change ringing that anyone can name a method 
 
 4. A method has not been officially named until it is rung.
 :   According to tradition, the initial right to determine a method's name is afforded to the band which first rings it in a compliant **performance**. A custom method which you save to Complib under a certain name may be rung under a different name by someone else, and it is under the latter name that the method will be officially recognised.
+
+You are of course welcome to give a custom method on Complib any name you like. However, if you intend to ring and name a method in a qualifying performance which will be published, it will be expected that you bear these guidelines (or something akin to them) in mind.
 
 ## Private and public methods
 A custom method which is successfully saved to Complib will be designated a **private method** and given its own [method page](overview.md). As noted above, a private method has not been officially named until it is performed and accepted into the Central Council's Method Library. 
@@ -123,7 +125,7 @@ This will open a window containing a link in plaintext form which you can copy t
 Another way to share private methods is by **publishing a composition** which includes the private method as part of its definition (see [Adding compositions](../compositions/adding_compositions.md) to learn more about adding and publishing compositions).
 
 !!! warning
-    Private methods shared via published compositions will be visible to **all registered users**. Please be sure that you are happy with your private method to be widely available before publishing a composition which uses it.
+    Private methods shared via published compositions will be visible to **all registered users**, though they will not appear in method searches to anyone other than their owners. Please be sure that you are happy with your private method to be widely available before publishing a composition which uses it.
 
 ## Editing and deleting methods
 
