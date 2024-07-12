@@ -6,11 +6,11 @@ When a new method is added to any of its libraries, Complib classifies it and de
 
 ![Bristol Surprise Major](../img/method_sample_page.png)
 
-The method's **name** is displayed at the top. If this name has changed since the method was first rung, the previous name(s) will be displayed underneath the current name if they are known.
+The method's **title** is displayed at the top. If this title has changed since the method was first rung, the previous title(s) will be displayed underneath the current title if they are known.
 
 ## Toolbar
 
-To the side of the method's name is the **toolbar**:
+To the side of the method's title is the **toolbar**:
 
 ![Toolbar buttons](../img/method_toolbar_user.png)
 
@@ -158,7 +158,7 @@ Type
     6. First extent
 
 Details
-:   The published details of the performance: title, performing Guild or Association (if given), location, and conductor (if given). The entry in this field acts as a link to the corresponding Bellboard performance, provided it exists and has been linked to the method page (see [Linking Bellboard performances](adding_methods.md/#linking-bellboard-performances)).
+:   The published details of the performance: title, performing Guild or Association (if given), location, and conductor (if given). The entry in this field acts as a link to the corresponding Bellboard performance, provided it exists and has been linked to the method page.
 
 ## References
 ![References tab expanded](../img/references_tab_expanded.png)

@@ -128,6 +128,24 @@ Another way to share private methods is by **publishing a composition** which in
     Private methods shared via published compositions will be visible to **all registered users**, though they will not appear in method searches to anyone other than their owners. Please be sure that you are happy with your private method to be widely available before publishing a composition which uses it.
 
 ## Editing and deleting methods
+To edit a custom method, click on the edit button in the toolbar:
 
-## Linking Bellboard performances
+![The edit button](../img/edit_button.png)
 
+This will open the method in the editor, allowing you to change the name, place notation and other aspects of the method as if you were creating it afresh.
+
+!!! warning
+    Be careful about editing custom methods which feature in compositions you have saved. Changing the method's place notation or stage will likely invalidate the compositions in question. **Complib does not check to see if any of your private or public compositions will be affected by an alteration made to a custom method.** You must make sure to take care of any such cases yourself.
+
+To delete a custom method, click on the delete button:
+
+![The delete button](../img/delete_button.png)
+
+This will bring up a prompt asking you to confirm that you want to delete the method. If you are sure, clicking on **Confirm Delete** will mark the custom method for deletion and remove it from your private methods.
+
+Methods marked for deletion can no longer be found via searches, though their pages will remain active for a certain period before being permanently removed, and all links to such pages will still function for the duration of this period. 
+
+A method marked for deletion will have a special icon to distinguish it: ![Marked for deletion](../img/deleted_icon.png){ width="50"}
+
+!!! warning
+    As with editing custom methods, you should bear in mind the effect that deleting a custom method may have on any compositions you have saved.
