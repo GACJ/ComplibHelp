@@ -107,7 +107,7 @@ There is a special type of change possible on even numbers of bells in which no 
 
 ```text
 1 2 3 4 5 6
- x x x x x
+ x   x   x
 2 1 4 3 6 5
 ```
 
