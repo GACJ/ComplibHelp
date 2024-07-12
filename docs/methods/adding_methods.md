@@ -1,4 +1,4 @@
-# Adding Methods
+# Adding methods
 Complib gives registered users the ability to create custom methods.
 
 To get started, click on **Create new > New method** in the navbar or dropdown menu:
