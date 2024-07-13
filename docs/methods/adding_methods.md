@@ -14,9 +14,6 @@ The add method page has a number of fields which allow you to specify certain pr
 Name (required)
 :   The desired name for your custom method. This will be used by Complib to generate the method's full title. See [Things to consider when naming methods](#things-to-consider-when-naming-methods) for advice on choosing a name for your custom method.
 
-!!! error "Bug"
-    While listed here as required, you will not currently be prevented from saving a method without a name. This is a known bug and will be fixed at a later date, after which point you will no longer be able to save methods without a name. For the time being, it is strongly advised that you give every custom method a name.
-
 !!! note
     Complib automatically appends the method's class descriptors and stage to its name to give the method's full title. As such, you should not add classification- or stage-specific words such as `Treble Bob` or `Caters` to the name field.
 
@@ -90,10 +87,10 @@ The custom method is related to an existing method at the same stage. This occur
 !!! tip "Definition: Method names, titles, etc."
     A method's **title** is its full descriptive designation, which consists of its **name**, its **class**, and its **stage**, given in that order.
 
-It is a long-standing tradition of change ringing that anyone can name a method that has not previously named subsequent to a qualifying performance. When deciding on a name for a custom method, there are a number of things you may wish to bear in mind. While the following guidelines allow a degree of flexibility (with some exceptions), they are widely accepted rules of thumb within the Exercise.
+It is a long-standing tradition of change ringing that anyone can name a method that has not previously been named subsequent to a qualifying performance. When deciding on a name for a custom method, there are a number of things you may wish to bear in mind. While the following guidelines allow a degree of flexibility (with some exceptions), they are widely accepted rules of thumb within the Exercise.
 
 1. A method's name should be unique.
-:   Two methods cannot share the same title. Two methods at differing stages cannot share the same name and class, with the exception of methods that are accepted as belonging to the same **extension path**, or methods whose class is not expressed as part of its title (e.g. hybrid methods and priciples).
+:   Two methods cannot share the same title. Two methods at differing stages cannot share the same name and class, with the exception of methods that are accepted as belonging to the same **extension path**, or methods whose class is not expressed as part of its title (e.g. hybrid methods and principles).
 
 2. A method's name should be human-readable and pronounceable.
 :   A method's name should be something that a human being can read and say aloud. As such, method names should not consist exclusively of punctuation, numerals or other symbols. 

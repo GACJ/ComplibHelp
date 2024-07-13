@@ -1,7 +1,7 @@
 # Place notation
 All change ringing is concerned with taking a certain ordering of bells, called a *row*, and generating a new row from it according to rules. A method can be thought of as a set of these rules applied in sequence.
 
-In practice there are many different ways that methods can be written down. Most frequently they are represented visually as a *blue line diagram*, which can aid in memorisation. Some methods can be learned according to a rule such as *"first, treble-bob, last, near, full, far..."* which expresses the blue line compactly as a short phrase.
+In practice there are many different ways that methods can be written down. Most frequently they are represented visually as a *blue line diagram*, which can aid in memorisation. Some methods can be learned according to a rule such as *"first, treble-bob, last, near, full, far..."* which expresses the blue line concisely as a short phrase.
 
 However, in order to refer to a specific method *uniquely*, it is necessary to have a compact way of expressing what exactly every bell does while ringing it. Place notation is a tool invented in order to do just that.
 
@@ -142,7 +142,7 @@ This simple notation is already powerful enough to uniquely express every "conve
 ## Condensed place notation
 Since methods can have leads which are (in theory) any finite length, place notation strings can become rather long and cumbersome when written out in full. However, for the vast majority of methods we may leverage their inherent symmetry to produce a *condensed form* of the place notation.
 
-The very significant majority of methods are *palindromic*, which means that their sequence of changes is the same when reversed. If we examine the place notation of the three methods above we can see that, if we ignore the final elements in each case, the remaining strings are all symmetrical about the element at the halfway point. For example, take Cambridge Surprise Minor:
+The very significant majority of named methods are *palindromic*, which means that their sequence of changes is the same when reversed. If we examine the place notation of the three methods above we can see that, if we ignore the final elements in each case, the remaining strings are all symmetrical about the element at the halfway point. For example, take Cambridge Surprise Minor:
 
 ```text
 -36-14-12-36-14-56-14-36-12-14-36-(12)
